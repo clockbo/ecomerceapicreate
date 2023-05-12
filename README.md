@@ -7,7 +7,6 @@ STEPS TO USE THE API:
 4) Make a GET request on https://ecomerce-api.up.railway.app/products
 5) The products should be visible
 STEPS TO CREATE A NEW PRODUCT: 
-1) start the server using node app.js
 2) Open postman
 3) put https://ecomerce-api.up.railway.app/create as the url. 
 4) Select Body tab below the url textarea and then select x-www-form-urlencoded
