@@ -8,7 +8,6 @@ STEPS TO USE THE API:
 3) Open postman
 4) Make a GET request on localhost:3000/products
 5) The products should be visible
-
 STEPS TO CREATE A NEW PRODUCT: 
 1) start the server using node app.js
 2) Open postman
