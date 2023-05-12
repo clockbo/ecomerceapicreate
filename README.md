@@ -33,3 +33,6 @@ STEPS TO UPDATE THE QUANTITY OF A PRODUCT:
 
 # TECHSTACK
 Node.Js, MongoDB
+
+.....................video............
+https://drive.google.com/file/d/1VtaVUPpAIChf74PHFobNgIyTs-r9S_RH/view?usp=share_link
