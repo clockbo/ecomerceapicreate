@@ -3,17 +3,19 @@
 This is an E-commerce API made using Node.Js & MongoDB. 
 
 STEPS TO USE THE API:
-3) Open postman
-4) Make a GET request on https://ecomerce-api.up.railway.app/products
-5) The products should be visible
+1) Open postman
+2) Make a GET request on https://ecomerce-api.up.railway.app/products
+3) The products should be visible
+
+
 STEPS TO CREATE A NEW PRODUCT: 
-2) Open postman
-3) put https://ecomerce-api.up.railway.app/create as the url. 
-4) Select Body tab below the url textarea and then select x-www-form-urlencoded
-5) Add name & quantity as the keys and set the desired values for the keys.
-6) Make a POST request.
-7) If you recieve the message saying new product added successfully then you have done everything correct.
-8) The product is created. Check it out by making a GET request at https://ecomerce-api.up.railway.app/products
+1) Open postman
+2) put https://ecomerce-api.up.railway.app/products/create as the url. 
+3) Select Body tab below the url textarea and then select x-www-form-urlencoded
+4) Add name & quantity as the keys and set the desired values for the keys.
+5) Make a POST request.
+6) If you recieve the message saying new product added successfully then you have done everything correct.
+7) The product is created. Check it out by making a GET request at https://ecomerce-api.up.railway.app/products
 
 STEPS TO DELETE A PRODUCT:
 1) copy the object id of the product you want to delete.
@@ -24,8 +26,8 @@ STEPS TO DELETE A PRODUCT:
 STEPS TO UPDATE THE QUANTITY OF A PRODUCT:
 1) Copy the object id of the product whose quantity you want to update
 2) Put the id after https://ecomerce-api.up.railway.app/products/
-3) After putting the id add /update_quantity/?number={x} in the url where x is the number by which you want to increase or decrease the quantity.
-4) the url should be looking like https://ecomerce-api.up.railway.app/products/{id}/update_quantity/?number={x}
+3) After putting the id add /update_quantity/?number=x in the url where x is the number by which you want to increase or decrease the quantity.
+4) the url should be looking like https://ecomerce-api.up.railway.app/products/645db5a8e7ccbcf2bf468374/update_quantity/?number=100
 5) Make a POST request and you should get a message containing the update product
 
 
