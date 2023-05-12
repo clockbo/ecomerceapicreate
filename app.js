@@ -15,5 +15,5 @@ app.use('/products', require('./routes/products'));
 
 // starting the server
 app.listen(port, function(){
-    console.log('API is live on http://localhost:3000/products');
+    console.log('API is live on https://ecomerce-api.up.railway.app//products');
 });
